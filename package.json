@@ -1,0 +1,36 @@
+{
+  "name": "ion-leancloud",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wujun4code/ion-leancloud"
+  },
+  "description": "leancloud sdk for ionic2+.",
+  "scripts": {},
+  "keywords": [
+    "leancloud",
+    "ionic2",
+    "cloud",
+    "baas"
+  ],
+  "author": "WuJun",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "2.2.1"
+  },
+  "dependencies": {
+    "@angular/core": "^4.1.2",
+    "@ionic-native/app-version": "^3.8.0",
+    "@ionic-native/core": "^3.8.0",
+    "@ionic-native/device": "^3.8.0",
+    "@ionic-native/network": "^3.8.0",
+    "@ionic-native/sim": "^3.8.0",
+    "@ionic/storage": "2.0.1",
+    "leancloud-typescript-rx-sdk": "^0.1.5",
+    "rxjs": "^5.3.1",
+    "zone.js": "^0.8.10"
+  },
+  "main": "./dist/ionLeanCloud.js",
+  "typings": "./dist/ionLeanCloud.d.ts",
+  "types": "./dist/ionLeanCloud.d.ts"
+}
