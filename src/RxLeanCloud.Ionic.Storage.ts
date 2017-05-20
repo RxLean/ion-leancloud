@@ -1,5 +1,5 @@
 import 'rxjs/add/operator/map';
-import { IStorage } from 'leancloud-typescript-rx-sdk';
+import { IStorage } from 'rx-lean-js-core';
 import { Storage } from '@ionic/storage';
 
 export class IonicStorage implements IStorage {

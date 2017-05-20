@@ -1,9 +1,8 @@
 import { NgModule, ModuleWithProviders } from "@angular/core";
-import { IWebSocketClient, IStorage, RxAVClient, IDeviceInfo } from 'leancloud-typescript-rx-sdk';
-import { BrowserWebSocketClient } from './ionLeanCloud.WebSocketClient';
-import { IonicStorage } from './ionLeanCloud.Storage';
-import { IonicDeviceInfoProvider } from './ionLeanCloud.Device';
-
+import { IWebSocketClient, IStorage, RxAVClient, IDeviceInfo } from 'rx-lean-js-core';
+import { BrowserWebSocketClient } from './RxLeanCloud.Ionic.WebSocketClient';
+import { IonicStorage } from './RxLeanCloud.Ionic.Storage';
+import { IonicDeviceInfoProvider } from './RxLeanCloud.Ionic.Device';
 import { Device } from '@ionic-native/device';
 import { Network } from '@ionic-native/network';
 import { AppVersion } from '@ionic-native/app-version';

@@ -1,12 +1,14 @@
 {
-  "name": "ion-leancloud",
-  "version": "0.1.0",
+  "name": "rx-lean-ionic",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wujun4code/ion-leancloud"
+    "url": "https://github.com/RxLeanCloud/rx-lean-ionic"
   },
   "description": "leancloud sdk for ionic2+.",
-  "scripts": {},
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "keywords": [
     "leancloud",
     "ionic2",
@@ -26,11 +28,11 @@
     "@ionic-native/network": "^3.8.0",
     "@ionic-native/sim": "^3.8.0",
     "@ionic/storage": "2.0.1",
-    "leancloud-typescript-rx-sdk": "^0.1.5",
+    "rx-lean-js-core": "^0.2.1",
     "rxjs": "^5.3.1",
     "zone.js": "^0.8.10"
   },
-  "main": "./dist/ionLeanCloud.js",
-  "typings": "./dist/ionLeanCloud.d.ts",
-  "types": "./dist/ionLeanCloud.d.ts"
+  "main": "./dist/RxLeanCloud.Ionic.js",
+  "typings": "./dist/RxLeanCloud.Ionic.d.ts",
+  "types": "./dist/RxLeanCloud.Ionic.d.ts"
 }

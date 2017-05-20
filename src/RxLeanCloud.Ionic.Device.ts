@@ -1,4 +1,4 @@
-import { RxAVClient, RxAVAnalyticDevice, IDeviceInfo } from 'leancloud-typescript-rx-sdk';
+import { RxAVClient, RxAVAnalyticDevice, IDeviceInfo } from 'rx-lean-js-core';
 import { Device } from '@ionic-native/device';
 import { Network } from '@ionic-native/network';
 import { AppVersion } from '@ionic-native/app-version';
